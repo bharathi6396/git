@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#headerindex
+{
+    background:#0475ba;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+}
+#headerindex h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+}
+#headerindex .headerheader{
+    font-size: 25px;
+    margin-right: 600px;
+}
+#headerindex .headerheader a{
+    color: white;
+    margin: 10px;
+}
+#section{
+    position:relative;
+    text-align: center;
+    font-size: 20px;
+    margin-left:-300px;
+    height: 200px;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-around; */
+    }
+    #section .name{
+        color: black;
+     margin-top: 120px;
+     /* margin-left:-10px; */
+    }
+    #section .job{
+        color:#0475ba;
+        margin-top: 30px;
+        font-size: 30px;
+        /* margin-left: -100px; */
+    }
+    #section img{
+        border-radius: 75px;
+        margin-top: -150px;
+        margin-left: 700px;
+        box-shadow: 3px 3px 10px grey;
+    }
+    #more{
+        position: relative;
+        background-color:#0475ba;
+        height: 300px;
+        color:white ;
+    }
+    .pres h3{
+        /* display: block; */
+        margin-left: 400px;
+        /* margin-bottom: 300px; */
+        /* margin-top: 200px; */
+    }
+    ul{
+        font-size: 18px;
+        list-style-type:dot;
+        margin-left: 400px;
+        margin-top: 100px;
+    } 
